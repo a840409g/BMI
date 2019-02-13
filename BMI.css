@@ -1,0 +1,129 @@
+body,html{
+	margin: 0px;
+	height: 0px;
+	font-family: 'Noto Sans TC', sans-serif;
+	background-color: #D3D3D3;
+}
+*{
+	transition-duration: 0.5s;
+}
+li{
+	list-style-type: none;
+	margin-top: 13px;
+}
+p,ul{
+	letter-spacing: 2px;
+}
+p{
+	line-height: 25px;
+	text-align: center;
+}
+ul{
+	position: relative;
+}
+input{
+	height: 30px;
+}
+.BMIicon,input,p{
+	display: inline-block;
+}
+.box{
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translateX(-50%) translateY(-50%);
+	background-color: black;
+	border-radius: 20px;
+}
+.BMIicon{
+	vertical-align: middle;
+	padding-left: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.slogan{
+	padding: 0px 25px;
+	font-size: 25px;
+	font-family: 'Oswald', sans-serif;
+	color: white;
+}
+.input-group-text{
+	margin-left: 10px;
+	margin-right: 3px;
+
+}
+.callBtn.btn.btn-outline-secondary{
+	text-align: center;
+	line-height: 5px;
+}
+.btnBox,.input-group{
+	justify-content: center;
+	padding: 5px;
+	background-color: white;
+	height: 50px;
+}
+.bmiBtn.btn.btn-outline-secondary{
+	text-align: center;
+	line-height: 5px;
+}
+.dataBox{
+	background-color: white;
+	position: relative;
+	width: 650px;
+	margin-bottom: 20px;
+	margin-top: -13px;
+	padding-bottom: 10px;
+}
+.bmi_span{
+	position: absolute;
+	left: 180px;
+	color: #17BEBB;
+}
+.hei_span{
+	position: absolute;
+	left: 280px;
+	color: #85CB33;
+}
+.wei_span{
+	position: absolute;
+	left: 380px;
+	color: #2D93AD;
+}
+.time_span{
+	position: absolute;
+	right: 80px;
+}
+.BMI1{
+	border-left: solid 5px #99FF4D;
+}
+.BMI2{
+	border-left: solid 5px #66FF00;
+}
+.BMI3{
+	border-left: solid 5px #A9A9A9;
+}
+.BMI4{
+	border-left: solid 5px #E9967A;
+}
+.BMI5{
+	border-left: solid 5px #FF8033;
+}
+.BMI6{
+	border-left: solid 5px #FF2400;
+}
+.time_span{
+	color: #004D99;
+}
+.delBtn{
+	position: absolute;
+	right: 15px;
+	cursor: pointer;
+	font-size: 20px;
+	padding: 2px;
+	line-height: 20px;
+	color: black;
+}
+.delBtn:hover{
+	background-color: black;
+	color: white;
+}
